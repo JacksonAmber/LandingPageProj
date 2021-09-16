@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@1,400;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: 'Glory', sans-serif;
+    line-height: 1.5;
+
+}
+h1 {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 5;
+    
+}
+
+#main{
+    position: relative;
+}
