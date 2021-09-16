@@ -9,11 +9,19 @@
     <meta name="author" content="Amber Jackson">
     <link rel="stylesheet" href=">https://fonts.google.com/?preview.size=64&preview.layout=row"
     <link rel="stylesheet" href="style.css">
-    <title>LandingPage</title>
+    <title>Resize Image Proportionatly with CSS</title>
+    <style>
+      img{
+        max-width: 100%;
+        max-height: 50%;
+
+      }
+    </style>
+
 </head>
 <body>
-    <section id="main">
-        <div id="image-container">
+
+    <section class="thumbnail">
         <img src="Zen.jpeg" alt="Zen Image">
         <div id="cover"></div>
         <div id="content">
@@ -45,11 +53,16 @@
               <section id="showcase">
                 <div class="container">
                   <h1>~ Work
-                      ~ Pets
-                      ~ Kids
-                      ~ Meals
-                      ~ Activities
-                      ~ To Do's
+                    <h2>~ Pets
+                      <h3>~Kids
+                        <h4>~Meals
+                          <h5>Activities
+                            ~<h6>To Do's
+                            </h6>
+                          </h5>
+                        </h4>
+                      </h3>
+                    </h2>
                   </h1>
                  
                 </div>

@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@1,400;1,700&display=swap');
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-}
 
 
 body {
@@ -21,4 +15,18 @@ h1 {
 
 #main{
     position: relative;
+    height: 100vh;
+    display: center;
+    width: 2400px;
+    height: 1200px;
+
+
+
+    justify-content: center;
+    align-items: center;
+}
+
+#image-container{
+    justify-content: center;
+
 }
